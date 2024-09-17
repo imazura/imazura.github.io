@@ -9,3 +9,17 @@ p, h1, h2, h3, h4, h5, h6{
 a{
     color: purple; font-family: 'Courier New', Courier, monospace;
 }
+
+a:hover{
+    animation:getBigger 80ms forwards;
+}
+
+@keyframes getBigger{
+    from{
+        font-size:100%;
+    }
+
+    to{
+        font-size:110%;
+    }
+}
